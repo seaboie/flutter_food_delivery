@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_food_delivery/pages/login_page.dart';
+import 'package:flutter_food_delivery/pages/register_page.dart';
 import 'package:flutter_food_delivery/theme/theme_provider.dart';
 import 'package:provider/provider.dart';
 
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: Provider.of<ThemeProvider>(context).themeData,
-      home: LoginPage(
+      home: RegisterPage(
         onTap: () {},
       ),
     );
