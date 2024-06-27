@@ -3,6 +3,7 @@ import 'package:flutter_food_delivery/components/floating_action_button_widget.d
 
 import 'package:flutter_food_delivery/components/my_button.dart';
 import 'package:flutter_food_delivery/components/my_text_field.dart';
+import 'package:flutter_food_delivery/pages/home_page.dart';
 
 class LoginPage extends StatefulWidget {
   final void Function()? onTap;
@@ -18,6 +19,18 @@ class LoginPage extends StatefulWidget {
 class _LoginPageState extends State<LoginPage> {
   final TextEditingController emailController = TextEditingController();
   final TextEditingController passwordController = TextEditingController();
+
+  void loginPressed() {
+    // Authentication
+
+    // navigate to HomePage()
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => const HomePage(),
+      ),
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -57,7 +70,9 @@ class _LoginPageState extends State<LoginPage> {
             const SizedBox(height: 25),
             MyButton(
               text: 'Sign In',
-              onTap: () {},
+              onTap: () {
+                loginPressed();
+              },
             ),
             const SizedBox(height: 25),
             Row(
