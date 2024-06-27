@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
+import 'package:flutter_food_delivery/components/floating_action_button_widget.dart';
 
 import 'package:flutter_food_delivery/components/my_button.dart';
 import 'package:flutter_food_delivery/components/my_text_field.dart';
-import 'package:flutter_food_delivery/theme/theme_provider.dart';
 
 class LoginPage extends StatefulWidget {
   final void Function()? onTap;
@@ -22,7 +21,7 @@ class _LoginPageState extends State<LoginPage> {
 
   @override
   Widget build(BuildContext context) {
-    final themeProvider = Provider.of<ThemeProvider>(context);
+    // final themeProvider = Provider.of<ThemeProvider>(context);
     return Scaffold(
       backgroundColor: Theme.of(context).colorScheme.surface,
       body: Center(
@@ -82,18 +81,11 @@ class _LoginPageState extends State<LoginPage> {
                   ),
                 ),
               ],
-            )
+            ),
           ],
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        child: themeProvider.isDarkMode
-            ? const Icon(Icons.sunny)
-            : const Icon(Icons.star_half),
-        onPressed: () {
-          themeProvider.toggleTheme();
-        },
-      ),
+      floatingActionButton: const FloatingActionButtonWidget(),
     );
   }
 }

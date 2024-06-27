@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_food_delivery/components/floating_action_button_widget.dart';
 import 'package:flutter_food_delivery/components/my_button.dart';
 import 'package:flutter_food_delivery/components/my_text_field.dart';
 
@@ -86,10 +87,11 @@ class _RegisterPageState extends State<RegisterPage> {
                   ),
                 ),
               ],
-            )
+            ),
           ],
         ),
       ),
+      floatingActionButton: const FloatingActionButtonWidget(),
     );
   }
 }
