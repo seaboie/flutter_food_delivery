@@ -21,7 +21,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: Provider.of<ThemeProvider>(context).themeData,
-      home: const LoginPage(),
+      home: LoginPage(
+        onTap: () {},
+      ),
     );
   }
 }
