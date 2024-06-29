@@ -60,8 +60,28 @@ class _HomePageState extends State<HomePage>
             ),
           )
         ],
-        body: Container(
-          color: Colors.blue,
+        body: TabBarView(
+          controller: _tabController,
+          children: [
+            ListView.builder(
+              itemCount: 5,
+              itemBuilder: (BuildContext context, int index) {
+                return Text("Hello $index");
+              },
+            ),
+            ListView.builder(
+              itemCount: 5,
+              itemBuilder: (BuildContext context, int index) {
+                return const Text('Second Tab');
+              },
+            ),
+            ListView.builder(
+              itemCount: 5,
+              itemBuilder: (BuildContext context, int index) {
+                return const Text('Third Tab');
+              },
+            ),
+          ],
         ),
       ),
     );
