@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_food_delivery/components/drawer/my_drawer.dart';
 import 'package:flutter_food_delivery/components/my_current_location.dart';
 import 'package:flutter_food_delivery/components/my_description_box.dart';
+import 'package:flutter_food_delivery/components/my_food_tile.dart';
 import 'package:flutter_food_delivery/components/my_sliver_app_bar.dart';
 import 'package:flutter_food_delivery/components/my_tab_bar.dart';
 import 'package:flutter_food_delivery/models/food.dart';
@@ -38,16 +39,18 @@ class _HomePageState extends State<HomePage>
     return fullMenu.where((food) => food.category == category).toList();
   }
 
-  // return lists of food in given category
   List<Widget> getFoodInThisCategory(List<Food> fullMenu) {
     return FoodCategory.values.map((category) {
       List<Food> categoryMenu = _fileMenuByCategory(category, fullMenu);
       return ListView.builder(
+        padding: EdgeInsets.zero,
         itemCount: categoryMenu.length,
         physics: const NeverScrollableScrollPhysics(),
         itemBuilder: (BuildContext context, int index) {
-          return ListTile(
-            title: Text(categoryMenu[index].name),
+          final food = categoryMenu[index];
+          return MyFoodTile(
+            food: food,
+            onTap: () {},
           );
         },
       );
@@ -57,7 +60,7 @@ class _HomePageState extends State<HomePage>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Theme.of(context).colorScheme.surface,
+      backgroundColor: Theme.of(context).colorScheme.secondary,
       // appBar: AppBar(             // *** Default AppBar ไม่ต้องใช้
       //   title: const Text('Home'),
       // ),
@@ -86,10 +89,12 @@ class _HomePageState extends State<HomePage>
             ),
           )
         ],
-        body: Consumer<Restaurant>(builder: (context, value, child) => TabBarView(
-          controller: _tabController,
-          children: getFoodInThisCategory(value.menu),
-        ),),
+        body: Consumer<Restaurant>(
+          builder: (context, value, child) => TabBarView(
+            controller: _tabController,
+            children: getFoodInThisCategory(value.menu),
+          ),
+        ),
       ),
     );
   }
