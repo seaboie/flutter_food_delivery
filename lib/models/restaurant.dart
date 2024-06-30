@@ -76,7 +76,7 @@ class Restaurant extends ChangeNotifier {
       name: "Classic Cheeseburge",
       description:
           "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis aliquam repudiandae beatae necessitatibus corporis quibusdam omnis aspernatur, accusamus voluptates blanditiis.",
-      imagePath: "assets/images/food.jpg",
+      imagePath: "assets/images/salad.jpg",
       price: 0.99,
       category: FoodCategory.salads,
       availableAddons: [
@@ -89,7 +89,7 @@ class Restaurant extends ChangeNotifier {
       name: "Classic Cheeseburge",
       description:
           "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis aliquam repudiandae beatae necessitatibus corporis quibusdam omnis aspernatur, accusamus voluptates blanditiis.",
-      imagePath: "assets/images/food.jpg",
+      imagePath: "assets/images/salad.jpg",
       price: 0.99,
       category: FoodCategory.salads,
       availableAddons: [
@@ -102,7 +102,7 @@ class Restaurant extends ChangeNotifier {
       name: "Classic Cheeseburge",
       description:
           "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis aliquam repudiandae beatae necessitatibus corporis quibusdam omnis aspernatur, accusamus voluptates blanditiis.",
-      imagePath: "assets/images/food.jpg",
+      imagePath: "assets/images/salad.jpg",
       price: 0.99,
       category: FoodCategory.salads,
       availableAddons: [
@@ -115,7 +115,7 @@ class Restaurant extends ChangeNotifier {
       name: "Classic Cheeseburge",
       description:
           "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis aliquam repudiandae beatae necessitatibus corporis quibusdam omnis aspernatur, accusamus voluptates blanditiis.",
-      imagePath: "assets/images/food.jpg",
+      imagePath: "assets/images/salad.jpg",
       price: 0.99,
       category: FoodCategory.salads,
       availableAddons: [
@@ -128,7 +128,7 @@ class Restaurant extends ChangeNotifier {
       name: "Classic Cheeseburge",
       description:
           "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis aliquam repudiandae beatae necessitatibus corporis quibusdam omnis aspernatur, accusamus voluptates blanditiis.",
-      imagePath: "assets/images/food.jpg",
+      imagePath: "assets/images/salad.jpg",
       price: 0.99,
       category: FoodCategory.salads,
       availableAddons: [
@@ -143,7 +143,7 @@ class Restaurant extends ChangeNotifier {
       name: "Classic Cheeseburge",
       description:
           "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis aliquam repudiandae beatae necessitatibus corporis quibusdam omnis aspernatur, accusamus voluptates blanditiis.",
-      imagePath: "assets/images/food.jpg",
+      imagePath: "assets/images/sides.jpg",
       price: 0.99,
       category: FoodCategory.sides,
       availableAddons: [
@@ -156,7 +156,7 @@ class Restaurant extends ChangeNotifier {
       name: "Classic Cheeseburge",
       description:
           "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis aliquam repudiandae beatae necessitatibus corporis quibusdam omnis aspernatur, accusamus voluptates blanditiis.",
-      imagePath: "assets/images/food.jpg",
+      imagePath: "assets/images/sides.jpg",
       price: 0.99,
       category: FoodCategory.sides,
       availableAddons: [
@@ -169,7 +169,7 @@ class Restaurant extends ChangeNotifier {
       name: "Classic Cheeseburge",
       description:
           "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis aliquam repudiandae beatae necessitatibus corporis quibusdam omnis aspernatur, accusamus voluptates blanditiis.",
-      imagePath: "assets/images/food.jpg",
+      imagePath: "assets/images/sides.jpg",
       price: 0.99,
       category: FoodCategory.sides,
       availableAddons: [
@@ -182,7 +182,7 @@ class Restaurant extends ChangeNotifier {
       name: "Classic Cheeseburge",
       description:
           "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis aliquam repudiandae beatae necessitatibus corporis quibusdam omnis aspernatur, accusamus voluptates blanditiis.",
-      imagePath: "assets/images/food.jpg",
+      imagePath: "assets/images/sides.jpg",
       price: 0.99,
       category: FoodCategory.sides,
       availableAddons: [
@@ -195,7 +195,7 @@ class Restaurant extends ChangeNotifier {
       name: "Classic Cheeseburge",
       description:
           "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis aliquam repudiandae beatae necessitatibus corporis quibusdam omnis aspernatur, accusamus voluptates blanditiis.",
-      imagePath: "assets/images/food.jpg",
+      imagePath: "assets/images/sides.jpg",
       price: 0.99,
       category: FoodCategory.sides,
       availableAddons: [
@@ -210,7 +210,7 @@ class Restaurant extends ChangeNotifier {
       name: "Classic Cheeseburge",
       description:
           "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis aliquam repudiandae beatae necessitatibus corporis quibusdam omnis aspernatur, accusamus voluptates blanditiis.",
-      imagePath: "assets/images/food.jpg",
+      imagePath: "assets/images/ice_cream.jpg",
       price: 0.99,
       category: FoodCategory.desserts,
       availableAddons: [
@@ -223,7 +223,7 @@ class Restaurant extends ChangeNotifier {
       name: "Classic Cheeseburge",
       description:
           "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis aliquam repudiandae beatae necessitatibus corporis quibusdam omnis aspernatur, accusamus voluptates blanditiis.",
-      imagePath: "assets/images/food.jpg",
+      imagePath: "assets/images/ice_cream.jpg",
       price: 0.99,
       category: FoodCategory.desserts,
       availableAddons: [
@@ -236,7 +236,7 @@ class Restaurant extends ChangeNotifier {
       name: "Classic Cheeseburge",
       description:
           "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis aliquam repudiandae beatae necessitatibus corporis quibusdam omnis aspernatur, accusamus voluptates blanditiis.",
-      imagePath: "assets/images/food.jpg",
+      imagePath: "assets/images/ice_cream.jpg",
       price: 0.99,
       category: FoodCategory.desserts,
       availableAddons: [
@@ -249,7 +249,7 @@ class Restaurant extends ChangeNotifier {
       name: "Classic Cheeseburge",
       description:
           "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis aliquam repudiandae beatae necessitatibus corporis quibusdam omnis aspernatur, accusamus voluptates blanditiis.",
-      imagePath: "assets/images/food.jpg",
+      imagePath: "assets/images/ice_cream.jpg",
       price: 0.99,
       category: FoodCategory.desserts,
       availableAddons: [
@@ -262,7 +262,7 @@ class Restaurant extends ChangeNotifier {
       name: "Classic Cheeseburge",
       description:
           "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis aliquam repudiandae beatae necessitatibus corporis quibusdam omnis aspernatur, accusamus voluptates blanditiis.",
-      imagePath: "assets/images/food.jpg",
+      imagePath: "assets/images/ice_cream.jpg",
       price: 0.99,
       category: FoodCategory.desserts,
       availableAddons: [
@@ -277,7 +277,7 @@ class Restaurant extends ChangeNotifier {
       name: "Classic Cheeseburge",
       description:
           "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis aliquam repudiandae beatae necessitatibus corporis quibusdam omnis aspernatur, accusamus voluptates blanditiis.",
-      imagePath: "assets/images/food.jpg",
+      imagePath: "assets/images/drink.jpg",
       price: 0.99,
       category: FoodCategory.drinks,
       availableAddons: [
@@ -290,7 +290,7 @@ class Restaurant extends ChangeNotifier {
       name: "Classic Cheeseburge",
       description:
           "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis aliquam repudiandae beatae necessitatibus corporis quibusdam omnis aspernatur, accusamus voluptates blanditiis.",
-      imagePath: "assets/images/food.jpg",
+      imagePath: "assets/images/drink.jpg",
       price: 0.99,
       category: FoodCategory.drinks,
       availableAddons: [
@@ -303,7 +303,7 @@ class Restaurant extends ChangeNotifier {
       name: "Classic Cheeseburge",
       description:
           "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis aliquam repudiandae beatae necessitatibus corporis quibusdam omnis aspernatur, accusamus voluptates blanditiis.",
-      imagePath: "assets/images/food.jpg",
+      imagePath: "assets/images/drink.jpg",
       price: 0.99,
       category: FoodCategory.drinks,
       availableAddons: [
@@ -316,7 +316,7 @@ class Restaurant extends ChangeNotifier {
       name: "Classic Cheeseburge",
       description:
           "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis aliquam repudiandae beatae necessitatibus corporis quibusdam omnis aspernatur, accusamus voluptates blanditiis.",
-      imagePath: "assets/images/food.jpg",
+      imagePath: "assets/images/drink.jpg",
       price: 0.99,
       category: FoodCategory.drinks,
       availableAddons: [
@@ -329,7 +329,7 @@ class Restaurant extends ChangeNotifier {
       name: "Classic Cheeseburge",
       description:
           "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis aliquam repudiandae beatae necessitatibus corporis quibusdam omnis aspernatur, accusamus voluptates blanditiis.",
-      imagePath: "assets/images/food.jpg",
+      imagePath: "assets/images/drink.jpg",
       price: 0.99,
       category: FoodCategory.drinks,
       availableAddons: [

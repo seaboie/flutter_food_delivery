@@ -54,7 +54,7 @@ class MyFoodTile extends StatelessWidget {
                   borderRadius: BorderRadius.circular(12),
                   child: Image.asset(
                     food.imagePath,
-                    width: 120,
+                    height: 120,
                   ),
                 ),
               ],
@@ -63,6 +63,8 @@ class MyFoodTile extends StatelessWidget {
         ),
         Divider(
           color: Theme.of(context).colorScheme.tertiary,
+          endIndent: 25,
+          indent: 25,
         )
       ],
     );
